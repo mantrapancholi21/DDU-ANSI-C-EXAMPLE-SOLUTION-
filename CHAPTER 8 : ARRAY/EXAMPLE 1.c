@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+  int i;
+  float x[10], value, total;
+  /* . . . . READING VALUES ITTO ARRAY. . . . .*/
+   printf("ENTER 10 REAL NUMBERS\n");
+   for (i=0; i < 10; i++)
+    {
+      scanf("%f",&value);
+      x[i] = value; 
+    }
+
+  /*. . . . computation of total. . . . .*/
+  
+    total= 0.0;
+    for(i=0;i<10;i++)
+    total = total + x[i] * x[i];
+
+ /*. . . . printing of x[i] values and total . . .*/
+    
+    printf("\n");
+      
+    for(i=0;i<10;i++)
+      printf("x[%2d]=%5.2f\n",i+1,x[i]);
+
+    printf("\ntotal =%.2f\n",total);
+}
