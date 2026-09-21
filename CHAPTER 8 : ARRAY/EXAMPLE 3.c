@@ -1,3 +1,7 @@
+/*Author: Meet yadav
+DDU IT SEM 1
+Roll no: 094
+*/
 #include<stdio.h>
 // this includes the string library we need it because we use: strlen()
 #include<string.h>
