@@ -1,3 +1,7 @@
+/*Author: Meet yadav
+DDU IT SEM 1
+Roll no: 094
+*/
 #include<stdio.h>
 #define MAXVAL 50 
 #define COUNTER 11
